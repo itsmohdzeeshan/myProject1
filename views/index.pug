@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>ZEESHAN's FITNESS</title>
+    <style>
+        body {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+.left {
+    /* border: 2px solid #ff0000; */
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    position: absolute;
+    left: 24px;
+    top: 20px;
+    background-color: aquamarine;
+    margin: 3PX 14PX;
+    padding: 3px 19px;
+    border-radius: 12px;
+}
+
+.mid {
+
+    color: black;
+    /* border: 2px solid red; */
+    margin: 20px auto;
+    width: 637px;
+    text-align: center;
+    display: block;
+
+}
+
+.right {
+    display: inline-block;
+    /* border: 2px solid grey; */
+    color: white;
+    position: absolute;
+    right: 24px;
+    top: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 20px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+}
+
+.btn {
+    border: 2px solid grey;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 4px 12px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: aquamarine;
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 2px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 8px 75px;
+    width: 24%;
+    border-radius: 28px;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form input {
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid aquamarine;
+    border-radius: 24px;
+    width: 292px;
+    margin: 7px -45px;
+    padding: 10px 18px;
+}
+
+.container button {
+    width: 100%;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="left">
+                <div>ZEESHAN'S FITNESS</div>
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li>
+                        <a href="/" class="active">Home</a>
+                        <a href="/" class="active">About Us</a>
+                        <a href="/" class="active">Services</a>
+                        <a href="/" class="active">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <button class="btn">Call Us</button>
+                <button class="btn">E-Mail Us</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>Join Now</h1>
+            <form action="/" method="post" class="form">
+                <div class="form">
+                    <input type="text" name="" placeholder="Your Name"><br>
+                    <input type="number" name="" placeholder="Your Age"><br>
+                    <input type="number" name="" placeholder="Your Phone-Number"><br>
+                    <input type="text" name="" placeholder="Your Gender"><br>
+                    <input type="text" name="" placeholder="Your Locality"><br>
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        <h1>Welcome to my server</h1>
+        <p>
+            | #{content}
+        </p>
+
+    </div>
+</body>
+
+</html>
